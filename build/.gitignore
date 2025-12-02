@@ -1,0 +1,7 @@
+*.sass-cache
+.DS_Store
+.DS_Store?
+*.codekit3
+*node_modules
+js/firestore-config.js
+.prettierignore

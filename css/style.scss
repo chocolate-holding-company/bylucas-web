@@ -1,0 +1,37 @@
+// ====================
+// Phone1st
+// A light developer theme
+// ====================
+@charset "UTF-8";
+@use "reset";
+
+// ==============
+//   Base styles
+//  =============
+@use "base/fonts";
+@use "base/typography";
+@use "base/media";
+@use "base/form";
+@use "base/button";
+@use "base/table";
+
+// ==============
+// Custom styles
+// ==============
+//start to build the stylesheet
+@use "site/site";
+
+@use "site/menu";
+@use "site/navigation";
+@use "site/social";
+
+//Dark Theme
+@use "site/dark-theme";
+
+//classes
+@use "class/class";
+
+// =============
+// Print styles
+// =============
+@use "base/print";
