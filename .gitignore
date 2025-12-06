@@ -1,7 +1,27 @@
-*.sass-cache
-.DS_Store
-.DS_Store?
-*.codekit3
+# Dependencies
+node_modules
 *node_modules
+
+# Logs
+*.log*
+
+# Temp directories
+.temp
+.tmp
+.cache
+
+*.sass-cache
+*.codekit3
 js/firestore-config.js
 .prettierignore
+
+# OSX
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
